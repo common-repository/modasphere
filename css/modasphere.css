@@ -1,0 +1,164 @@
+.head-division {
+    text-transform: uppercase;
+}
+
+.modasphere a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.modasphere ul li {
+    list-style: none;
+}
+
+.modasphere .nav-tabs .nav-item {
+    text-transform: uppercase;
+}
+
+.talent-info div {
+    margin: 0 15px 0 0;
+    display: inline-block;
+}
+
+.post-content .divisions ul {
+    padding-left: 0;
+}
+
+.modasphere-checkbox {
+    display: inline-block;
+    width: 200px;
+}
+
+.modasphere-admin .card {
+    height: 98%;
+}
+
+.modasphere-admin select {
+    height: calc(1.5em + .75rem + 2px);
+}
+
+.social-icons {
+    width: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-followers {
+    font-size: 1.8em;
+}
+
+.talent-caption-overlay {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.talent-caption-overlay .caption-item {
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.talent-caption-overlay .caption-item:hover .caption {
+    opacity: 1;
+
+}
+
+.talent-caption-overlay img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4;
+}
+
+.talent-caption-overlay .caption {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+
+}
+
+.talent-caption-overlay .blur {
+    /*background-color: rgba(0, 0, 0, 0.65);*/
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+}
+
+.talent-caption-overlay .caption-text h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    display: block;
+    color: #fff;
+}
+
+.talent-caption-overlay .caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 20px;
+}
+
+.talent-caption-overlay .caption-text p {
+    margin-bottom: 0;
+}
+
+.talent-caption-overlay .caption-text p.social-pr {
+    margin-bottom: 20px;
+}
+
+.overlay-name {
+    left: calc(14px);
+    bottom: calc(14px);
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.overlay-name span {
+    box-sizing: border-box;
+    padding: 5px 0;
+    display: block;
+    text-align: left;
+}
+
+.overlay-name span:last-child {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.modasphere-talent-name{
+    float: left;
+}
+#modasphere-actions-favorites,.ms-remove-favorites{
+    cursor: pointer;
+}
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.talent-gallery .item{
+    height: 100%;
+}
+.card-body {
+    padding: 1.25rem 0;
+}
